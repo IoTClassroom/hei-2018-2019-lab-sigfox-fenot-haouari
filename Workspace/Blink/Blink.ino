@@ -19,7 +19,7 @@ void loop() {
 
   int percentage = map(sensorValue, 0, 1023, 0, 100);
 
-  Serial.print("light percentage: ");
+  Serial.print("darkness percentage: ");
   Serial.print(percentage);
   Serial.println(" % ");
 
